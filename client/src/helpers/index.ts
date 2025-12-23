@@ -33,8 +33,10 @@ export const handleFilterClick = ({
   if (textContent) dispatch(setCurrentFilter(textContent))
 }
 
+// Added optional chaining (?.) and fallback (|| [])
+// This prevents the crash when a game has no platforms
 const modifyPlatforms = (array: PlatformTypes[]): ParentPlatformsT[] =>
-  array.map(({ platform }) => platform)
+  array?.map(({ platform }) => platform) || []
 
 const returnIsInCart = (id: number | string, inCartGames: GameTypes[]) =>
   inCartGames.some(game => game.id === id)
@@ -49,6 +51,10 @@ export const returnGames = async ({
   if (!response) return []
 
   const results = response.results || response.data
+
+  // Added safety check for results
+  if (!results) return []
+
   const modifiedResults = results.map(game => ({
     ...game,
     parent_platforms: response.results
