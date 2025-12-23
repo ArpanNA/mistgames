@@ -41,7 +41,7 @@ const Header = () => {
       >
         <LogoWrapper as={Link} to={PATHS.home}>
           <Logo src={logo} alt="Logo" />
-          <div>Game Harbor</div>
+          <div>Mist-Games</div>
         </LogoWrapper>
         <InputWrapper
           ref={inputWrapperRef}

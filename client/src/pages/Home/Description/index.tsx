@@ -13,7 +13,7 @@ import {
 const Description = () => (
   <StyledDescription>
     <Pitch>
-      <Header>Game Harbor</Header>
+      <Header>Mist-Games</Header>
       <p>
         It’s not a commercial project. You can’t buy any games here and all of
         the prices are generated to imitate a real game shop.
@@ -23,9 +23,9 @@ const Description = () => (
       </EnjoyBlock>
     </Pitch>
     <Links>
-      <Link href="https://github.com/alex-dishen" target="_blank">
+      <Link href="https://github.com/ArpanNA/mistgames" target="_blank">
         <Github />
-        alex-dishen
+        ArpanNa
       </Link>
       <Link href="https://rawg.io/apidocs" target="_blank">
         <RAWGLogo src={rawg} alt="RAWG logo" />
