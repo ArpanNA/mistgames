@@ -1,4 +1,4 @@
-<h1 align='center'>Game Harbor</h1>
+<h1 align='center'>Mist-Games</h1>
 
 ![Preview](images/preview-image.png)
 
