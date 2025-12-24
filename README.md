@@ -2,11 +2,9 @@
 
 ![Preview](images/preview-image.png)
 
-<p align='center'>Shopping Cart for <a href="https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript">The Odin Project</a></p>
-
 <h2>Demo</h2>
 
-🔥 [Live Demo](https://alex-dishen.github.io/game-harbor/)
+🔥 [Live Demo]
 
 <h2>Built with</h2>
 
@@ -66,9 +64,9 @@ Here are some examples of request and response payloads for the endpoints:
     "released": "2022-12-10",
     "parent_platforms": ["PC", "iOS"],
     "genres": ["Puzzle"],
-    "publishers": ["Oleksandr Didyshen"],
-    "developers": ["Oleksandr Didyshen"],
-    "website": "https://alex-dishen.github.io/memory-card/",
+    "publishers": ["Arpan Nashine"],
+    "developers": ["Arpan Nashine],
+    "website":
   }
   {
     "id": "cd196746-4bec-4199-8198-881efbe61233",
@@ -143,7 +141,7 @@ SSH - $ git clone git@github.com:alex-dishen/shop.git
 $ cd shop
 ```
 
-3. Install the dependencies.
+3. Install the dependencies. in both Server and Client folder individually
 
 ```sh
 $ npm i
@@ -153,14 +151,12 @@ $ yarn
 
 4. [Create a RAWG account](https://rawg.io/apidocs) to get your API key.
 
-5. Create <code>.env</code> file in the root directory.
+5. Create <code>.env</code> file in the Client directory.
 
 6. Add: <code>VITE_RAWG_API = YOUR API KEY</code>. (Remember to replace <code>YOUR API KEY</code> with generated key after creating and account)
 
 7. Start the project.
 
 ```sh
+
 $ npm start
-or
-$ yarn start
-```
