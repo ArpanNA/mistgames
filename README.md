@@ -66,8 +66,8 @@ Here are some examples of request and response payloads for the endpoints:
     "parent_platforms": ["PC", "iOS"],
     "genres": ["Puzzle"],
     "publishers": ["Arpan Nashine"],
-    "developers": ["Arpan Nashine],
-    "website": ["mistgames]
+    "developers": ["Arpan Nashine"],
+    "website": ["mistgames"]
   }
   {
     "id": "cd196746-4bec-4199-8198-881efbe61233",
@@ -144,41 +144,3 @@ Here are some examples of request and response payloads for the endpoints:
 </br>
 
 <h2>Development</h2>
-
-Here are the steps to start the project locally.
-
-1. Clone the repository.
-
-```sh
-HTTPS - $ git clone https://github.com/alex-dishen/shop.git
-or
-SSH - $ git clone git@github.com:alex-dishen/shop.git
-```
-
-2. Move to the cloned directory.
-
-```sh
-$ cd shop
-```
-
-3. Install the dependencies.
-
-```sh
-$ npm i
-or
-$ yarn
-```
-
-4. [Create a RAWG account](https://rawg.io/apidocs) to get your API key.
-
-5. Create <code>.env</code> file in the root directory.
-
-6. Add: <code>VITE_RAWG_API = YOUR API KEY</code>. (Remember to replace <code>YOUR API KEY</code> with generated key after creating and account)
-
-7. Start the project.
-
-```sh
-$ npm start
-or
-$ yarn start
-```
