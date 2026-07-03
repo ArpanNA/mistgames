@@ -4,12 +4,13 @@
   "homepage": "https://alex-dishen.github.io/shop",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "start": "vite --host --open",
-    "build:prod": "vite build --base=/game-harbor/",
-    "build:dev": "vite build",
+    "build": "vite build",
+    "preview": "vite preview",
     "lint": "eslint .",
     "lint:format": "prettier --write --loglevel warn \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
-    "lint:fix": "eslint --cache ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore "
+    "lint:fix": "eslint --cache ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
