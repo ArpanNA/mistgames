@@ -6,5 +6,8 @@
     "server:i": "cd server && npm install",
     "client": "cd client && yarn start",
     "server": "cd server && yarn dev"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

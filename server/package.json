@@ -1,13 +1,14 @@
 {
-  "name": "game-harbor",
+  "name": "mist-game",
+  "homepage": "https://ArpanNA.github.io/mistgames/",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/server.js",
     "dev": "nodemon src/server.ts",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "cors": "^2.8.5",
