@@ -1,7 +1,6 @@
 {
   "name": "shop",
   "version": "0.0.1",
-  "homepage": "https://alex-dishen.github.io/shop",
   "type": "module",
   "scripts": {
     "dev": "vite",
