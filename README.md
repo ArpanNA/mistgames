@@ -4,7 +4,7 @@
 
 <h2>Demo</h2>
 
-🔥 [Live Demo]
+🔥 🔥 **[Live Demo](https://mistgames-24g3inhuk-arpannas-projects.vercel.app/)**
 
 <h2>Built with</h2>
 
